@@ -1,0 +1,58 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Model and pipeline artifacts
+*.pkl
+*.joblib
+*.sav
+
+# Streamlit-specific cache
+.streamlit/config.toml
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/state/
+
+# VSCode
+.vscode/
+
+# macOS and Linux hidden files
+.DS_Store
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Dataset files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Output folders (optional)
+outputs/
+artifacts/
+results/
+
+# System files
+Thumbs.db
+ehthumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# Ignore compiled notebooks (if using Jupyter)
+*.nbconvert.ipynb
