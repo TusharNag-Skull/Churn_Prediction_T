@@ -14,11 +14,6 @@ venv/
 ENV/
 *.env
 
-# Model and pipeline artifacts
-*.pkl
-*.joblib
-*.sav
-
 # Streamlit-specific cache
 .streamlit/config.toml
 .streamlit/secrets.toml
@@ -35,12 +30,6 @@ ENV/
 
 # Logs
 *.log
-
-# Dataset files
-*.csv
-*.tsv
-*.xlsx
-*.xls
 
 # Output folders (optional)
 outputs/
